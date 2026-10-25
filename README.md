@@ -425,6 +425,8 @@ python -m pip install -r requirements.txt
 python -m pytest -q tests
 ```
 
+Part 2 กำหนดให้เพิ่ม student-created cases อย่างน้อย 3 กรณี; ชุดส่งนี้เพิ่มกรณีเปลี่ยนเฉพาะ IPv4, เปลี่ยนเฉพาะ admin state และเปลี่ยนหลายฟิลด์ ดังนั้นการรันใน repo นี้รวมเป็น 91 กรณี (88 กรณีจาก starter และ 3 กรณีที่เพิ่ม)
+
 การผ่าน public tests ยังไม่รับประกันว่าจะผ่าน hidden tests
 
 ## ลำดับการทำงาน

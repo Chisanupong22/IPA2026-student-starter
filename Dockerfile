@@ -9,6 +9,7 @@ ENV PYTHONUNBUFFERED=1 \
 
 COPY requirements.txt .
 RUN python -m pip install --no-cache-dir -r requirements.txt
+RUN ansible-galaxy collection install ansible.netcommon cisco.ios
 
 COPY app/ ./app/
 COPY ansible/ ./ansible/
